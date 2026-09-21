@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #1a1a1a;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: white;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 16px;
+}
+nav a:hover{
+    color: #2563eb;
+}
+.hero{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 8%;
+}
+.hero-content h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.hero-content h2{
+    font-size: 28px;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.button{
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.about{
+    padding: 80px 8%;
+    background-color: white;
+}
+.about h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.profile-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-text{
+    max-width: 600px;
+}
+.about-text p{
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+.education{
+    padding: 80px 8%;
+    background-color: #f5f5f5;
+}
+.education h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.education-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.education-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+}
+.education-card h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.education-card p{
+    line-height: 1.6;
+}
+.education-status{
+    color: #2563eb;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.education-school{
+    color: #2563eb;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.skills{
+    padding: 80px 8%;
+    background-color: white;
+}
+.skills h2{
+    padding: 80px 8%;
+    background-color: white;
+    text-align: center;
+}
+.skills-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+}
+.skills-list li{
+    background-color: #f5f5f5;
+    padding: 15px 30px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.skills-list li:hover{
+    border-color: #2563eb;
+    color: #2563eb;
+}
+.skills-list a{
+    display: flex;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hobbies{
+    padding: 80px 8%;
+    background-color: #f5f5f5;
+}
+.hobbies h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.hobby-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.hobby-card{
+    background-color: white;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.hobby-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.hobby-card h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.hobby-card p{
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.hobby-tools{
+    color: #2563eb;
+    font-weight: bold;
+}
+.hobby-link{
+    text-decoration: none;
+    color: #2563eb;
+    font-weight: bold;
+}
+.hobby-link hover{
+    text-decoration: underline;
+}
+.experience{
+    padding: 80px 8%;
+    background-color: white;
+}
+.experience h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.experience-card{
+    max-width: 800px;
+    margin: 0 auto 25px auto;
+    background-color: whitesmoke;
+    padding: 30px;
+    border-left: 5px solid #2563eb;
+    border-radius: 8px;
+}
+.experience-card h3{
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.job-title{
+    color: #2563eb;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.experience-card p{
+    line-height: 1.6;
+}
+.interests{
+    padding: 50px 8%;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.interests h2{
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.interests p{
+    max-width: 750px;
+    margin: 0 auto 20px auto;
+    font-size: 17px;
+    line-height: 1.7;
+}
+footer{
+    background-color:  #111827;
+    color: white;
+    padding: 60px 8% 30px 8%;
+    text-align: center;
+}
+footer h2{
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+footer p{
+    margin-bottom: 20px;
+}
+footer ul{
+    list-style: none;
+    margin-bottom: 40px;
+}
+footer li{
+    margin-bottom: 10px;
+}
+.copyright{
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.gallery-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: white;
+}
+
+.back-button{
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-button hover{
+    text-decoration: underline;
+}
+
+.gallery-page{
+    padding: 70px 8%;
+    min-height: 100vh;
+}
+
+.gallery-page h1{
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.gallery-page p{
+    text-align: center;
+    color: #555555;
+    margin-bottom: 50px;
+}
+
+.gallery-images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.gallery-images img{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 8px;
+}
